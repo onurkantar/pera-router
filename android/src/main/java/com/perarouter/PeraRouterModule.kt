@@ -2,6 +2,7 @@ package com.perarouter
 
 import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.module.annotations.ReactModule
+import android.os.Build
 
 @ReactModule(name = PeraRouterModule.NAME)
 class PeraRouterModule(reactContext: ReactApplicationContext) :
@@ -15,6 +16,10 @@ class PeraRouterModule(reactContext: ReactApplicationContext) :
   // See https://reactnative.dev/docs/native-modules-android
   override fun multiply(a: Double, b: Double): Double {
     return a * b
+  }
+
+  override fun getManufacturer(): String {
+    return Build.MANUFACTURER
   }
 
   companion object {

@@ -3,6 +3,7 @@ import { TurboModuleRegistry } from 'react-native';
 
 export interface Spec extends TurboModule {
   multiply(a: number, b: number): number;
+  getManufacturer(): string;
 }
 
 export default TurboModuleRegistry.getEnforcing<Spec>('PeraRouter');

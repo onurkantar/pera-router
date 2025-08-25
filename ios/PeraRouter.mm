@@ -9,6 +9,10 @@ RCT_EXPORT_MODULE()
     return result;
 }
 
+- (NSString *)getManufacturer {
+    return @"Apple";
+}
+
 - (std::shared_ptr<facebook::react::TurboModule>)getTurboModule:
     (const facebook::react::ObjCTurboModule::InitParams &)params
 {
