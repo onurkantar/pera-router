@@ -1,5 +1,5 @@
 {
-  "name": "pera-router",
+  "name": "@diva-mobilepackage/diva-pera-router",
   "version": "0.1.0",
   "description": "router for pera mobile app",
   "main": "./lib/module/index.js",
@@ -56,7 +56,7 @@
   },
   "homepage": "https://github.com/onurkantar/pera-router#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://sonarnexus.logo.com.tr:8443/repository/diva-mobilepackage/"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^19.6.0",
