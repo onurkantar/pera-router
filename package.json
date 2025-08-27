@@ -160,5 +160,8 @@
     "languages": "kotlin-objc",
     "type": "turbo-module",
     "version": "0.52.1"
+  },
+  "dependencies": {
+    "@diva-mobilepackage/diva-pera-pax-a920-barcode-scanner": "^1.0.0"
   }
 }
